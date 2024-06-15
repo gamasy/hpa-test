@@ -39,7 +39,7 @@ spec:
         app: memuser
     spec:
       containers:
-      - image: ghcr.io/xphyr/k8s_memuser_advanced:latest
+      - image: ghcr.io/gamasy/memuser:latest
         imagePullPolicy: Always
         name: memuser
         ports:
